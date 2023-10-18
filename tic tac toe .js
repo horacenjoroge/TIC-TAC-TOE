@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function () {
 const gameBoard = (() => {
     const board = ["", "", "", "", "", "", "", "", ""];
     const winningCombinations = [
@@ -108,3 +109,4 @@ const displayController = (() => {
 
 let currentPlayer = "X";
 displayController.renderBoard();
+});
