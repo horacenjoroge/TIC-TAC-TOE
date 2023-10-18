@@ -94,3 +94,12 @@ body {
 #new-game:hover {
     background-color: #0056b3;
 }
+#choose-x,
+#choose-o {
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
